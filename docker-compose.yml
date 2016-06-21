@@ -1,7 +1,7 @@
 # GLPI container
 glpi:
   container_name: www_glpi
-  image: joffreydupire/glpi:1
+  image: joffreydupire/glpi:0.85.4
   ports:
     - "8090:80"
   links:
