@@ -10,6 +10,7 @@ glpi:
     - ./www_glpi.env
   volumes:
     - /www:/var/www/html/glpi
+  restart: always
 
 # Database container
 mysql:
@@ -19,3 +20,4 @@ mysql:
     - ./mysql_glpi.env
   volumes:
     - /db:/var/lib/mysql
+  restart: always
