@@ -53,6 +53,7 @@ chown www-data .
 
 # stop apache service
 # service apache2 stop
+service apache2 start
 service apache2 restart
 
 # start apache in foreground
